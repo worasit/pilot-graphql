@@ -11,3 +11,8 @@ The pilot project of the graphql
    upon  a button click
 4. Add the "create-user" route and parse the incoming data (i.e. the username) and simply log it to
    the console
+
+## Type of Errors
+ - Syntax Errors
+ - Runtime Errors
+ - Logical Errors
