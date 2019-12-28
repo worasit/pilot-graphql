@@ -1,0 +1,23 @@
+{
+  "name": "pilot-graphql",
+  "version": "1.0.0",
+  "description": "The complete node.js learning for GraphQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/worasit/pilot-graphql.git"
+  },
+  "author": "Worasit D.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/worasit/pilot-graphql/issues"
+  },
+  "homepage": "https://github.com/worasit/pilot-graphql#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

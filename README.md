@@ -3,7 +3,7 @@ The pilot project of the graphql
 
 
 # Assignment 1
-1. Spin up a Node.js-driven Server (on port 3000)
+1. Spin up a Node.js-driven Server (on port 3000) - Done
 2. Handle two Routes "/" and "/users"
     - Return some greeting text on "/"
     - Return a list of dummy users (e.g. <ul><li>User 1</li></ul>)
