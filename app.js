@@ -8,7 +8,7 @@ const port = 3000;
 // Added the incoming request bodyParser into the middleware.
 app.use(bodyParser.urlencoded({ extended: false }));
 
-app.use('/add-product', (req, res, next) => {
+app.get('/add-product', (req, res, next) => {
     const htmlTemplate = /*html*/
         `
         <form action="/product" method="POST">
@@ -19,7 +19,7 @@ app.use('/add-product', (req, res, next) => {
     res.send(htmlTemplate);
 });
 
-app.use('/product', (req, res, next) => {
+app.post('/product', (req, res, next) => {
     console.log(req.body);
     res.redirect('/');
 });
