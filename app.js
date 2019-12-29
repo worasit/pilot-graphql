@@ -12,5 +12,10 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(adminRoutes);
 app.use(shopRoutes);
 
+app.use((req, res, next) => {
+    const html = /*html*/ `<h1>Page not found for path: ${req.url}</h1>`
+    res.status(404).send(html);
+});
+
 app.listen(port);
 console.log(`Service is running at port: ${port}`);
