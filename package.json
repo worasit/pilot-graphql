@@ -1,27 +1,23 @@
 {
-  "name": "pilot-graphql",
+  "name": "nodejs-complete-guide",
   "version": "1.0.0",
-  "description": "The pilot project of the graphql",
+  "description": "Complete Node.js Guide",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js"
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/worasit/pilot-graphql.git"
-  },
-  "author": "Worasit D.",
+  "author": "Maximilian Schwarzmüller",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/worasit/pilot-graphql/issues"
-  },
-  "homepage": "https://github.com/worasit/pilot-graphql#readme",
-  "dependencies": {
-    "body-parser": "^1.19.0",
-    "express": "^4.17.1"
-  },
   "devDependencies": {
-    "nodemon": "^2.0.2"
+    "nodemon": "^1.18.3"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^3.0.1",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.1.0",
+    "pug": "^2.0.4"
   }
 }
